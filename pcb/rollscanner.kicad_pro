@@ -613,6 +613,18 @@
     [
       "3a29eda7-b674-4811-97fa-5a6a3643f63e",
       "Root"
+    ],
+    [
+      "951ec462-acca-4166-8c53-6a4baf97edc1",
+      "Shift Registers"
+    ],
+    [
+      "d7e61db1-1a7c-4321-9aef-63afd38a2c08",
+      "Light Sensors"
+    ],
+    [
+      "8e8c5905-42c0-4b41-a893-7e371792d13a",
+      "Regulators"
     ]
   ],
   "text_variables": {}
