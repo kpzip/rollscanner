@@ -412,7 +412,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -458,7 +458,7 @@
         "uuid": "f9755fcb-cf20-4035-b258-023be059e24a"
       }
     ],
-    "used_designators": "J1-10,R1-11,D1-8,C1-28,Y1,#PWR1-63,Q1-4,U1-2",
+    "used_designators": "U1-7,Q1-4,#PWR1-92,Y1,C1-46,D1-8,R1-13,JP1-4,J1-11,L1",
     "variants": []
   },
   "sheets": [
@@ -481,6 +481,10 @@
     [
       "022f8a39-1282-49c2-9dac-9d880e9ae535",
       "Solenoid Driver 4"
+    ],
+    [
+      "8b242891-5a94-42c4-a876-ce724133b55c",
+      "Power & Regulators"
     ]
   ],
   "text_variables": {},
