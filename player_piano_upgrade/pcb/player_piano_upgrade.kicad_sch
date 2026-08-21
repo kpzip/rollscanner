@@ -1012,6 +1012,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -3449,10 +3650,28 @@
 		(uuid "005ff56e-0218-4c61-8842-1b8fc4d9a494")
 	)
 	(junction
+		(at 373.38 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0123d788-34a9-449d-8616-cff5b005a814")
+	)
+	(junction
 		(at 289.56 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "086e60a7-155b-47bc-9526-9f46dd4dd945")
+	)
+	(junction
+		(at 363.22 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c5a0e8d-3cda-41dc-9a1d-7039968f5e2c")
+	)
+	(junction
+		(at 353.06 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e73805e-0df5-4ca9-b550-678c36907f54")
 	)
 	(junction
 		(at 129.54 157.48)
@@ -3473,7 +3692,7 @@
 		(uuid "21d94368-764e-459e-b672-3d2b1644935d")
 	)
 	(junction
-		(at 322.58 157.48)
+		(at 355.6 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "246fd6ef-8978-43d7-9cbe-f04f24d4d41d")
@@ -3495,6 +3714,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "310e8ea3-cd83-44ff-9587-ad0962245586")
+	)
+	(junction
+		(at 349.25 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ad93f81-6a4b-460d-ba30-a3be7e192590")
 	)
 	(junction
 		(at 273.05 154.94)
@@ -3533,6 +3758,12 @@
 		(uuid "56431542-363b-493c-bc84-284d5d5b09a0")
 	)
 	(junction
+		(at 383.54 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56f36b1a-bf40-4129-9875-8cd67031cc7f")
+	)
+	(junction
 		(at 264.16 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3543,6 +3774,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c19aa38-32e8-420b-aa56-1199a047ba0d")
+	)
+	(junction
+		(at 358.14 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ce756c7-406f-457c-b5e7-201c87c7c9ae")
 	)
 	(junction
 		(at 228.6 78.74)
@@ -3567,6 +3804,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80ff7d2d-dfb2-4301-b744-01f12ff8aab6")
+	)
+	(junction
+		(at 332.74 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82f11772-b14d-4d1d-b335-d7c7a6d123af")
 	)
 	(junction
 		(at 129.54 119.38)
@@ -3605,7 +3848,7 @@
 		(uuid "9a69d1d6-887d-4679-9efb-6422dc91fe30")
 	)
 	(junction
-		(at 322.58 165.1)
+		(at 355.6 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b63e27c-4e2c-4bde-8413-2457ac2b800d")
@@ -3617,10 +3860,28 @@
 		(uuid "9e4be26a-2829-48d3-8709-ac9c2ea54b82")
 	)
 	(junction
+		(at 342.9 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e6fdd8d-fd0e-4d72-aad1-f4e91a39a1ee")
+	)
+	(junction
 		(at 327.66 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fe338db-77a4-4c60-b669-6ceb060e911d")
+	)
+	(junction
+		(at 341.63 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6cbc431-161b-467e-a1df-e4059ebacc21")
+	)
+	(junction
+		(at 346.71 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa052d70-dc20-4428-8055-4be193ce386f")
 	)
 	(junction
 		(at 223.52 78.74)
@@ -3641,6 +3902,18 @@
 		(uuid "c50d0b51-2d94-4bc7-af9b-7147a4614e64")
 	)
 	(junction
+		(at 355.6 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cec35f4f-2651-4e35-96c4-ad18ab359b5a")
+	)
+	(junction
+		(at 355.6 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d34c59d0-4a28-415c-bc88-ba72fd0ef69b")
+	)
+	(junction
 		(at 129.54 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3659,6 +3932,18 @@
 		(uuid "e0d25a77-0274-4174-870a-93f1460166ee")
 	)
 	(junction
+		(at 355.6 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1677170-061f-434d-8b7f-75fcbc693085")
+	)
+	(junction
+		(at 344.17 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f385351b-71d8-4ed9-8db6-0b8f0f5d0db0")
+	)
+	(junction
 		(at 276.86 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3671,8 +3956,60 @@
 		(uuid "fc547292-2614-4683-8c89-73cc051aa77d")
 	)
 	(no_connect
+		(at 246.38 167.64)
+		(uuid "097043a9-0d16-4486-a1a2-b563a5b44a67")
+	)
+	(no_connect
+		(at 246.38 142.24)
+		(uuid "1a68f13f-297a-4d20-b6c7-64b912a0bd87")
+	)
+	(no_connect
+		(at 246.38 165.1)
+		(uuid "2cf30bd2-9299-410c-80c0-4b854f126b8c")
+	)
+	(no_connect
+		(at 210.82 134.62)
+		(uuid "37a38cb7-a09b-46c2-8d66-b788bc5a7bab")
+	)
+	(no_connect
+		(at 246.38 91.44)
+		(uuid "47a07bf1-86d9-4c73-bde2-b90446c37ba7")
+	)
+	(no_connect
+		(at 210.82 129.54)
+		(uuid "52eeda5a-8efc-42ed-9648-8b822733f340")
+	)
+	(no_connect
+		(at 246.38 101.6)
+		(uuid "588a81b8-9ab2-470b-8b15-a0e29308dd94")
+	)
+	(no_connect
 		(at 210.82 111.76)
 		(uuid "5ed15c38-0128-4ef8-9a23-2fa6b11543cf")
+	)
+	(no_connect
+		(at 246.38 119.38)
+		(uuid "6aadb9b5-9b71-4068-910c-fcb97ba79cc5")
+	)
+	(no_connect
+		(at 246.38 99.06)
+		(uuid "82a5ff48-1ca8-44c7-9ab5-e0c5f91ba19d")
+	)
+	(no_connect
+		(at 246.38 160.02)
+		(uuid "8592c81b-e381-412a-b2c9-b55877cf4d7d")
+	)
+	(no_connect
+		(at 246.38 137.16)
+		(uuid "861d03b8-2dc5-4fdb-8e3f-3b672f057ed1")
+	)
+	(no_connect
+		(at 246.38 157.48)
+		(uuid "8f3a68ac-fdfb-451c-9dd7-4d9fd933cdc7")
+	)
+	(no_connect
+		(at 246.38 144.78)
+		(uuid "95b26867-5d81-4799-ab2a-914f9f36a1a9")
 	)
 	(no_connect
 		(at 299.72 113.03)
@@ -3681,6 +4018,22 @@
 	(no_connect
 		(at 299.72 107.95)
 		(uuid "a0ef8d65-270d-4823-8015-155918d57caa")
+	)
+	(no_connect
+		(at 210.82 127)
+		(uuid "b6935ce4-79d1-45f2-b2c7-bad9a7ae754a")
+	)
+	(no_connect
+		(at 246.38 162.56)
+		(uuid "cfc97fc0-6afb-4e0b-864e-f70aedc911d4")
+	)
+	(no_connect
+		(at 210.82 132.08)
+		(uuid "fb5b3f39-7671-473c-9d3c-923f217bcd15")
+	)
+	(no_connect
+		(at 246.38 127)
+		(uuid "fe173166-ad41-4d40-9a18-b598db143726")
 	)
 	(wire
 		(pts
@@ -3701,6 +4054,16 @@
 			(type default)
 		)
 		(uuid "02d5cff3-5e31-4916-84fd-8179e85d0381")
+	)
+	(wire
+		(pts
+			(xy 322.58 209.55) (xy 322.58 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034d7dd2-e0f7-4782-b37a-7feb57d292ec")
 	)
 	(wire
 		(pts
@@ -3754,6 +4117,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 127) (xy 355.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076c5ab6-3dab-4cbb-8787-177a0552e25e")
+	)
+	(wire
+		(pts
 			(xy 210.82 160.02) (xy 201.93 160.02)
 		)
 		(stroke
@@ -3794,7 +4167,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 152.4) (xy 325.12 152.4)
+			(xy 330.2 152.4) (xy 341.63 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3854,6 +4227,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 199.39) (xy 373.38 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1676fd08-d439-4114-944c-4fae4fa43fe8")
+	)
+	(wire
+		(pts
 			(xy 200.66 154.94) (xy 210.82 154.94)
 		)
 		(stroke
@@ -3871,6 +4254,16 @@
 			(type default)
 		)
 		(uuid "17d00dd8-de7d-4f7b-9187-7fef4afead2e")
+	)
+	(wire
+		(pts
+			(xy 322.58 212.09) (xy 332.74 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a46f8ce-3ee9-43b4-93df-06a520443b2b")
 	)
 	(wire
 		(pts
@@ -3914,6 +4307,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 132.08) (xy 344.17 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf90253-aeb7-476a-9fb5-db2a78f6b2ce")
+	)
+	(wire
+		(pts
 			(xy 129.54 81.28) (xy 129.54 78.74)
 		)
 		(stroke
@@ -3931,6 +4334,16 @@
 			(type default)
 		)
 		(uuid "1ca4c0b0-a092-4757-8cab-063cda17b3c5")
+	)
+	(wire
+		(pts
+			(xy 383.54 209.55) (xy 383.54 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9c088f-52b8-4890-9f50-f4ace7c7be8d")
 	)
 	(wire
 		(pts
@@ -3954,6 +4367,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 162.56) (xy 358.14 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fceed8e-d496-4ee4-952f-2b6ba250e33f")
+	)
+	(wire
+		(pts
 			(xy 100.33 199.39) (xy 100.33 201.93)
 		)
 		(stroke
@@ -3961,6 +4384,16 @@
 			(type default)
 		)
 		(uuid "2201943a-f569-43a1-9ca0-c5339af24153")
+	)
+	(wire
+		(pts
+			(xy 332.74 199.39) (xy 332.74 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2221ccb5-191c-4858-9633-2da783993890")
 	)
 	(wire
 		(pts
@@ -4014,6 +4447,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 142.24) (xy 355.6 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a09c4ab-6ef5-4eda-ba04-5928835b8c82")
+	)
+	(wire
+		(pts
 			(xy 110.49 80.01) (xy 121.92 80.01)
 		)
 		(stroke
@@ -4061,6 +4504,16 @@
 			(type default)
 		)
 		(uuid "2cd2537e-2b82-44fd-8a30-17c7a8be849f")
+	)
+	(wire
+		(pts
+			(xy 355.6 127) (xy 355.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce7e220-4c64-4416-8ade-83a503bae798")
 	)
 	(wire
 		(pts
@@ -4131,6 +4584,16 @@
 			(type default)
 		)
 		(uuid "30acb193-f308-4cec-91a7-9c7fa735f475")
+	)
+	(wire
+		(pts
+			(xy 346.71 137.16) (xy 346.71 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31fb69b1-0602-4d36-a663-34a3d2c64283")
 	)
 	(wire
 		(pts
@@ -4214,6 +4677,26 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 199.39) (xy 363.22 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384a5dbb-399a-4cc2-9a11-88f28425fc7b")
+	)
+	(wire
+		(pts
+			(xy 342.9 199.39) (xy 342.9 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a953833-d5e2-4347-b078-8fa55e65537b")
+	)
+	(wire
+		(pts
 			(xy 166.37 121.92) (xy 172.72 121.92)
 		)
 		(stroke
@@ -4221,6 +4704,26 @@
 			(type default)
 		)
 		(uuid "3b0108a2-3851-4014-9b89-422045d0d090")
+	)
+	(wire
+		(pts
+			(xy 363.22 209.55) (xy 363.22 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b84f897-a11f-4a58-aa5b-f7e7e58837c4")
+	)
+	(wire
+		(pts
+			(xy 383.54 199.39) (xy 383.54 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6a0347-0d79-4aeb-99b0-b29fbfa4b317")
 	)
 	(wire
 		(pts
@@ -4244,6 +4747,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 199.39) (xy 322.58 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422ad792-c241-4382-af6a-1f75d95811fc")
+	)
+	(wire
+		(pts
 			(xy 100.33 100.33) (xy 100.33 102.87)
 		)
 		(stroke
@@ -4264,6 +4777,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 199.39) (xy 393.7 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d420a5-fd75-4f72-be43-fbc1a18496e5")
+	)
+	(wire
+		(pts
 			(xy 78.74 187.96) (xy 85.09 187.96)
 		)
 		(stroke
@@ -4281,6 +4804,16 @@
 			(type default)
 		)
 		(uuid "47bf146b-cb3b-4eb5-b97f-c0563c48d869")
+	)
+	(wire
+		(pts
+			(xy 189.23 222.25) (xy 200.66 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4832bf6b-111a-46e2-80a3-11cdac17fcf7")
 	)
 	(wire
 		(pts
@@ -4374,6 +4907,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 191.77) (xy 393.7 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee0a402-72f8-4d73-a925-0ca6b7d20835")
+	)
+	(wire
+		(pts
 			(xy 90.17 77.47) (xy 85.09 77.47)
 		)
 		(stroke
@@ -4404,6 +4947,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 139.7) (xy 349.25 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56098744-e249-47e8-91ac-b0b137a0b099")
+	)
+	(wire
+		(pts
 			(xy 100.33 85.09) (xy 100.33 87.63)
 		)
 		(stroke
@@ -4424,7 +4977,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 157.48) (xy 322.58 165.1)
+			(xy 355.6 157.48) (xy 355.6 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4484,6 +5037,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 191.77) (xy 373.38 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f74b203-347a-4408-b60c-5934c04ff1f9")
+	)
+	(wire
+		(pts
 			(xy 85.09 152.4) (xy 78.74 152.4)
 		)
 		(stroke
@@ -4501,6 +5064,16 @@
 			(type default)
 		)
 		(uuid "616a3a2c-1b94-4066-aa76-398412a8a029")
+	)
+	(wire
+		(pts
+			(xy 342.9 212.09) (xy 353.06 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62344df2-f4b3-47cd-bd40-91b3d6e48983")
 	)
 	(wire
 		(pts
@@ -4624,6 +5197,26 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 191.77) (xy 363.22 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b5b7c96-195e-4d1f-8a5e-0f9f406baa11")
+	)
+	(wire
+		(pts
+			(xy 358.14 212.09) (xy 358.14 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7b38bc-1b42-4d46-a83e-2f2e58a2a5ed")
+	)
+	(wire
+		(pts
 			(xy 110.49 77.47) (xy 121.92 77.47)
 		)
 		(stroke
@@ -4641,6 +5234,16 @@
 			(type default)
 		)
 		(uuid "6d0b8c7d-0fa7-4449-b0b0-d1da3a108d06")
+	)
+	(wire
+		(pts
+			(xy 358.14 134.62) (xy 355.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df7c51c-f919-4c24-a0bf-7a67858813a0")
 	)
 	(wire
 		(pts
@@ -4714,6 +5317,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 191.77) (xy 332.74 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3c0326-d5c5-4898-9aa2-3a3a61510118")
+	)
+	(wire
+		(pts
 			(xy 299.72 120.65) (xy 288.29 120.65)
 		)
 		(stroke
@@ -4721,6 +5334,16 @@
 			(type default)
 		)
 		(uuid "7cbb8f94-7b5c-46de-a7cf-3e8653681eb5")
+	)
+	(wire
+		(pts
+			(xy 322.58 191.77) (xy 322.58 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1579b8-6dae-462f-8496-1c3dfff85b93")
 	)
 	(wire
 		(pts
@@ -4804,6 +5427,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 212.09) (xy 342.9 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6ed02c-83c1-4262-a973-cf772fb9c6c2")
+	)
+	(wire
+		(pts
 			(xy 299.72 102.87) (xy 288.29 102.87)
 		)
 		(stroke
@@ -4851,6 +5484,16 @@
 			(type default)
 		)
 		(uuid "8f42e0b8-b00c-4aab-9d18-3b209251659b")
+	)
+	(wire
+		(pts
+			(xy 363.22 212.09) (xy 373.38 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f59bd86-3799-4ac1-9ed6-74cb634652cf")
 	)
 	(wire
 		(pts
@@ -4904,13 +5547,23 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 149.86) (xy 322.58 149.86)
+			(xy 358.14 149.86) (xy 355.6 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "941ebe17-52d2-406a-ba5a-0f3201b37e7c")
+	)
+	(wire
+		(pts
+			(xy 353.06 212.09) (xy 358.14 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94295d63-00dd-4278-b519-f7628a898707")
 	)
 	(wire
 		(pts
@@ -4964,7 +5617,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 165.1) (xy 325.12 165.1)
+			(xy 355.6 165.1) (xy 358.14 165.1)
 		)
 		(stroke
 			(width 0)
@@ -5004,6 +5657,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 212.09) (xy 393.7 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b520cb9-1ad2-4f39-8fef-9c30bf14daa5")
+	)
+	(wire
+		(pts
 			(xy 187.96 121.92) (xy 184.15 121.92)
 		)
 		(stroke
@@ -5021,6 +5684,16 @@
 			(type default)
 		)
 		(uuid "9bc3a656-1355-45c2-8627-e24d5d4eb612")
+	)
+	(wire
+		(pts
+			(xy 342.9 209.55) (xy 342.9 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d110bd0-27cf-457b-a3dc-5044af5f498b")
 	)
 	(wire
 		(pts
@@ -5051,6 +5724,16 @@
 			(type default)
 		)
 		(uuid "9f73a15e-a091-46ce-9ef3-1d397f86ff7d")
+	)
+	(wire
+		(pts
+			(xy 332.74 209.55) (xy 332.74 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff6db78-5b0c-4827-92e9-f840f6ed51aa")
 	)
 	(wire
 		(pts
@@ -5134,6 +5817,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 152.4) (xy 358.14 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70ce986-6044-4138-b923-baa211a9d326")
+	)
+	(wire
+		(pts
 			(xy 200.66 142.24) (xy 210.82 142.24)
 		)
 		(stroke
@@ -5144,13 +5837,33 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 157.48) (xy 325.12 157.48)
+			(xy 246.38 88.9) (xy 257.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a880074e-3eb8-4390-a42e-91d9752ae75b")
+	)
+	(wire
+		(pts
+			(xy 355.6 157.48) (xy 358.14 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a9388f20-9eab-4600-a941-d1965e5ba7ad")
+	)
+	(wire
+		(pts
+			(xy 373.38 212.09) (xy 383.54 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa76be80-5eb3-452a-8fd4-f4c90b06ba34")
 	)
 	(wire
 		(pts
@@ -5171,6 +5884,16 @@
 			(type default)
 		)
 		(uuid "ad1d3e71-6725-4ca0-90c8-75b750970022")
+	)
+	(wire
+		(pts
+			(xy 341.63 129.54) (xy 341.63 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae118a12-cd5b-48ac-850b-ba5540b5f3c7")
 	)
 	(wire
 		(pts
@@ -5284,7 +6007,17 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 154.94) (xy 325.12 154.94)
+			(xy 346.71 160.02) (xy 358.14 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6efe8a3-e16d-43e9-a862-39661f778558")
+	)
+	(wire
+		(pts
+			(xy 330.2 154.94) (xy 358.14 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5311,6 +6044,16 @@
 			(type default)
 		)
 		(uuid "b758ddc5-5d3a-46a0-a3ad-f3f7394e2601")
+	)
+	(wire
+		(pts
+			(xy 358.14 139.7) (xy 349.25 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90d9f41-6381-4573-b1e2-1104d7421fe5")
 	)
 	(wire
 		(pts
@@ -5374,6 +6117,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 152.4) (xy 344.17 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be08253e-ef83-4edd-8a4a-78b0725dbf01")
+	)
+	(wire
+		(pts
 			(xy 200.66 149.86) (xy 210.82 149.86)
 		)
 		(stroke
@@ -5401,6 +6154,16 @@
 			(type default)
 		)
 		(uuid "beaca653-dfda-4964-b03e-329471a20333")
+	)
+	(wire
+		(pts
+			(xy 355.6 134.62) (xy 355.6 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee66ff5-7f3a-412b-b0c7-70b5f26937c0")
 	)
 	(wire
 		(pts
@@ -5454,6 +6217,36 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 191.77) (xy 342.9 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c57bdd22-9c3c-4897-baa1-89f23818e0c3")
+	)
+	(wire
+		(pts
+			(xy 353.06 209.55) (xy 353.06 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e3f8f0-633a-42c5-ba28-48dbe6ba5216")
+	)
+	(wire
+		(pts
+			(xy 353.06 191.77) (xy 353.06 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c642ab90-d98c-440e-8ecf-40d510da5773")
+	)
+	(wire
+		(pts
 			(xy 276.86 57.15) (xy 276.86 59.69)
 		)
 		(stroke
@@ -5471,6 +6264,16 @@
 			(type default)
 		)
 		(uuid "c68199fa-5abe-49d4-afeb-a92c596002e2")
+	)
+	(wire
+		(pts
+			(xy 383.54 191.77) (xy 383.54 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7bb3815-c0a0-417b-b9ca-a4bcb4de6ab0")
 	)
 	(wire
 		(pts
@@ -5504,7 +6307,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 162.56) (xy 325.12 162.56)
+			(xy 330.2 162.56) (xy 349.25 162.56)
 		)
 		(stroke
 			(width 0)
@@ -5514,7 +6317,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 160.02) (xy 325.12 160.02)
+			(xy 330.2 160.02) (xy 346.71 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5554,7 +6357,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 165.1) (xy 322.58 167.64)
+			(xy 355.6 165.1) (xy 355.6 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5571,6 +6374,16 @@
 			(type default)
 		)
 		(uuid "ceb849c4-aedd-424a-a08d-f5e5b077e877")
+	)
+	(wire
+		(pts
+			(xy 393.7 209.55) (xy 393.7 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf596616-bb8b-4f88-832a-9d89ff08e35e")
 	)
 	(wire
 		(pts
@@ -5684,6 +6497,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 209.55) (xy 373.38 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5a48e4-50a3-483d-8f88-a2646cf48b29")
+	)
+	(wire
+		(pts
 			(xy 275.59 212.09) (xy 275.59 214.63)
 		)
 		(stroke
@@ -5704,6 +6527,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 212.09) (xy 363.22 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba2cb39-fdf0-492c-aa20-0430910ae759")
+	)
+	(wire
+		(pts
 			(xy 100.33 161.29) (xy 100.33 163.83)
 		)
 		(stroke
@@ -5721,6 +6554,16 @@
 			(type default)
 		)
 		(uuid "e02f370a-ab0b-47dc-9c03-5b5706adf198")
+	)
+	(wire
+		(pts
+			(xy 358.14 137.16) (xy 346.71 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e16e6507-fb26-49fd-a1c1-17e9d4db9482")
 	)
 	(wire
 		(pts
@@ -5754,6 +6597,26 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 132.08) (xy 344.17 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9676636-ee10-484a-8e45-5221887a5c76")
+	)
+	(wire
+		(pts
+			(xy 353.06 199.39) (xy 353.06 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb16c507-e785-431f-b47e-39495e8fbe86")
+	)
+	(wire
+		(pts
 			(xy 314.96 69.85) (xy 327.66 69.85)
 		)
 		(stroke
@@ -5761,6 +6624,16 @@
 			(type default)
 		)
 		(uuid "eb9ef0e0-f634-420b-a900-7e74a8e00957")
+	)
+	(wire
+		(pts
+			(xy 358.14 129.54) (xy 341.63 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edcbbc24-7d5d-4e4a-a9df-29e99b66ada6")
 	)
 	(wire
 		(pts
@@ -5791,6 +6664,16 @@
 			(type default)
 		)
 		(uuid "f3884c28-f276-4fb4-be0e-6ba6514fdf65")
+	)
+	(wire
+		(pts
+			(xy 358.14 142.24) (xy 355.6 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f507ca79-02c9-4710-adfc-42201136cfcf")
 	)
 	(wire
 		(pts
@@ -5884,7 +6767,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 149.86) (xy 322.58 157.48)
+			(xy 355.6 149.86) (xy 355.6 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5913,7 +6796,7 @@
 		(uuid "074e8eb5-fa3f-4ba3-aceb-3371d12c1c52")
 	)
 	(label "SCL"
-		(at 312.42 160.02 0)
+		(at 330.2 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6012,8 +6895,18 @@
 		)
 		(uuid "333d727b-4d23-4ad8-b6bd-daf7869c6453")
 	)
+	(label "HV_SENSE"
+		(at 257.81 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "351b7e58-8d07-4b1f-9480-7248cc10e5c4")
+	)
 	(label "MIDI_RX"
-		(at 312.42 154.94 0)
+		(at 330.2 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6041,6 +6934,16 @@
 			(justify right bottom)
 		)
 		(uuid "3840e765-4854-4124-9d67-b87494a7b1d4")
+	)
+	(label "PWM_LV_1"
+		(at 322.58 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d576b2b-2770-4d06-89da-9b2cde2a357e")
 	)
 	(label "GD_EN_8"
 		(at 200.66 154.94 0)
@@ -6102,6 +7005,16 @@
 		)
 		(uuid "49be4f3a-bf77-4904-97f8-b491f10805b5")
 	)
+	(label "PWM_LV_4"
+		(at 353.06 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49e48db7-b460-4c1d-b261-1dc2745c5476")
+	)
 	(label "XTAL2"
 		(at 204.47 106.68 0)
 		(effects
@@ -6142,6 +7055,16 @@
 		)
 		(uuid "4dfe6d1c-2df0-4ce7-951a-693b3c3d31a3")
 	)
+	(label "PWM_LV_5"
+		(at 363.22 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4fad28a8-df66-40dc-8cfd-857ca22f20bb")
+	)
 	(label "XTAL1"
 		(at 204.47 104.14 0)
 		(effects
@@ -6151,6 +7074,26 @@
 			(justify left bottom)
 		)
 		(uuid "50aa9383-5bf1-4976-b157-a42348478662")
+	)
+	(label "PWM_LV_6"
+		(at 373.38 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "573930f0-4f23-4c47-a21f-f09e2244d489")
+	)
+	(label "PWM_LV_8"
+		(at 393.7 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59e79ed1-21d8-42bb-96c6-08781a3739a0")
 	)
 	(label "PWM_LV_3"
 		(at 257.81 114.3 180)
@@ -6202,6 +7145,16 @@
 		)
 		(uuid "622ca7f2-34e8-4efa-bc6d-a7a1d1f1300a")
 	)
+	(label "PWM_LV_7"
+		(at 383.54 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "692757e5-0b01-43ad-a5a4-5009def6800d")
+	)
 	(label "GD_EN_6"
 		(at 121.92 156.21 180)
 		(effects
@@ -6223,7 +7176,7 @@
 		(uuid "7106146a-c8f4-4b4f-af91-a3a285fe3694")
 	)
 	(label "SDA"
-		(at 312.42 162.56 0)
+		(at 330.2 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6281,6 +7234,16 @@
 			(justify left bottom)
 		)
 		(uuid "a09ecf08-7c44-4ca1-927c-94d1b40ce967")
+	)
+	(label "PWM_LV_3"
+		(at 342.9 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0e01596-665f-4ee6-b8ec-fcbeeb3d4d9d")
 	)
 	(label "PROG_TX"
 		(at 288.29 118.11 0)
@@ -6392,6 +7355,16 @@
 		)
 		(uuid "c8ea87e5-40c1-4a90-87cf-ef1c2757f09b")
 	)
+	(label "HV_SENSE"
+		(at 200.66 222.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce0d057d-78bf-4428-99d1-0fd3a485040f")
+	)
 	(label "PWM_LV_3"
 		(at 121.92 110.49 180)
 		(effects
@@ -6432,6 +7405,16 @@
 		)
 		(uuid "df758bee-6591-4a21-b49e-555a6458c89b")
 	)
+	(label "PWM_LV_2"
+		(at 332.74 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dffb1208-5d74-4c52-9e10-045b16eed9be")
+	)
 	(label "PWM_LV_6"
 		(at 121.92 153.67 180)
 		(effects
@@ -6443,7 +7426,7 @@
 		(uuid "e3250515-c702-4db5-a630-1f053f1c22a6")
 	)
 	(label "MIDI_TX"
-		(at 312.42 152.4 0)
+		(at 330.2 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6531,6 +7514,247 @@
 			(justify right bottom)
 		)
 		(uuid "ff156808-b3cb-45f4-ac09-bf421de580e5")
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 363.22 205.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00df6961-c88a-411d-b28d-c3cafe0659ce")
+		(property "Reference" "D16"
+			(at 367.03 206.0574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 367.03 208.5974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 363.22 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 363.22 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 363.22 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "XL-502SURD"
+			(at 363.22 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 363.22 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C2895492"
+			(at 363.22 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7359e4a9-5583-4c85-8d53-12ba211758e9")
+		)
+		(pin "2"
+			(uuid "9f6d1a70-0987-41d2-b55c-40d1d7d27183")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 383.54 195.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07034aee-ae5a-4a94-9e9f-432495a23876")
+		(property "Reference" "R23"
+			(at 386.08 194.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 386.08 196.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 382.524 195.326 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 383.54 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 383.54 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 383.54 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 383.54 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 383.54 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "70bdb91c-b4bd-4bd3-a631-29a755df06d8")
+		)
+		(pin "1"
+			(uuid "4c4271ba-5c6e-4289-8c04-98c9c62def1c")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -6714,7 +7938,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B104KBCNNNC"
 			(at 302.26 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6725,7 +7949,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 302.26 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6736,7 +7960,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C24497"
 			(at 302.26 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6796,7 +8020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 202.8952 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -6829,7 +8053,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B475KAHNNNE"
 			(at 201.93 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -6840,7 +8064,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digi-Key"
 			(at 201.93 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -6851,7 +8075,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1276-1055-1-ND"
 			(at 201.93 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -6912,7 +8136,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD"
 			(at 312.42 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6945,7 +8169,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "FTSH-107-01-L-DV-K"
 			(at 312.42 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6956,7 +8180,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digi-Key"
 			(at 312.42 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6967,7 +8191,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "SAM9449-ND"
 			(at 312.42 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7252,7 +8476,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B104KBCNNNC"
 			(at 142.24 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -7263,7 +8487,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 142.24 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -7274,7 +8498,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C24497"
 			(at 142.24 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -7445,7 +8669,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B104KBCNNNC"
 			(at 314.96 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7456,7 +8680,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 314.96 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7467,7 +8691,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C24497"
 			(at 314.96 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7560,7 +8784,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B104KBCNNNC"
 			(at 142.24 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7571,7 +8795,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 142.24 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7582,7 +8806,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C24497"
 			(at 142.24 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8289,7 +9513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 173.6852 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8322,7 +9546,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GJM1555C1H180GB01D"
 			(at 172.72 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8333,7 +9557,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digi-Key"
 			(at 172.72 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8344,7 +9568,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "490-8082-1-ND"
 			(at 172.72 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8371,8 +9595,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 322.58 167.64 0)
+		(lib_id "Device:R_US")
+		(at 322.58 195.58 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8381,30 +9605,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4049f67a-d500-4e42-9880-e35279f3924d")
-		(property "Reference" "#PWR061"
-			(at 322.58 173.99 0)
-			(hide yes)
+		(uuid "3eb7f87a-b0cc-4ab1-850d-c1aeb61530f8")
+		(property "Reference" "R17"
+			(at 325.12 194.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 322.58 172.72 0)
+		(property "Value" "150Ω"
+			(at 325.12 196.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 322.58 167.64 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 321.564 195.326 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8415,7 +9640,121 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 167.64 0)
+			(at 322.58 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 322.58 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 322.58 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 322.58 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 322.58 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "94400bd2-2e02-4c56-a6fa-e1e40555ad9e")
+		)
+		(pin "1"
+			(uuid "683b720d-eb15-4c84-b207-020c1e083cf3")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 355.6 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4049f67a-d500-4e42-9880-e35279f3924d")
+		(property "Reference" "#PWR061"
+			(at 355.6 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 355.6 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8426,7 +9765,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 322.58 167.64 0)
+			(at 355.6 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8560,7 +9899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 130.5052 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -8593,7 +9932,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B475KAHNNNE"
 			(at 129.54 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -8604,7 +9943,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digi-Key"
 			(at 129.54 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -8615,7 +9954,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1276-1055-1-ND"
 			(at 129.54 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -8708,7 +10047,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B104KBCNNNC"
 			(at 142.24 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8719,7 +10058,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 142.24 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8730,7 +10069,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C24497"
 			(at 142.24 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8758,7 +10097,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x07")
-		(at 330.2 157.48 0)
+		(at 363.22 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8769,7 +10108,7 @@
 		(fields_autoplaced yes)
 		(uuid "50978eb0-63a3-48e9-a3c2-6d9ad5e9c1dd")
 		(property "Reference" "J10"
-			(at 332.74 156.2099 0)
+			(at 365.76 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8779,8 +10118,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x07"
-			(at 332.74 158.7499 0)
+		(property "Value" "Comm"
+			(at 365.76 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8790,8 +10129,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 330.2 157.48 0)
+		(property "Footprint" "Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical"
+			(at 363.22 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8802,7 +10141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 157.48 0)
+			(at 363.22 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8813,7 +10152,40 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 330.2 157.48 0)
+			(at 363.22 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B7B-PH-K-S"
+			(at 363.22 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 363.22 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "455-1709-ND"
+			(at 363.22 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8920,7 +10292,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B104KBCNNNC"
 			(at 142.24 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8931,7 +10303,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 142.24 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8942,7 +10314,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C24497"
 			(at 142.24 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -9035,7 +10407,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B104KBCNNNC"
 			(at 289.56 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9046,7 +10418,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 289.56 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9057,7 +10429,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C24497"
 			(at 289.56 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9162,6 +10534,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 383.54 205.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55a4011c-a7c4-4de2-97aa-035359c2adec")
+		(property "Reference" "D18"
+			(at 387.35 206.0574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 387.35 208.5974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 383.54 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 383.54 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 383.54 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 383.54 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "XL-502SURD"
+			(at 383.54 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 383.54 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C2895492"
+			(at 383.54 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "218642ad-782e-48b5-8298-2f382dfef90a")
+		)
+		(pin "2"
+			(uuid "637a7d80-b869-4ec2-ad81-8880a9904469")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 327.66 63.5 0)
 		(unit 1)
@@ -9228,7 +10726,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B104KBCNNNC"
 			(at 327.66 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9239,7 +10737,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 327.66 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9250,7 +10748,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C24497"
 			(at 327.66 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9612,7 +11110,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B104KBCNNNC"
 			(at 340.36 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9623,7 +11121,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 340.36 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9634,7 +11132,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C24497"
 			(at 340.36 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9655,6 +11153,121 @@
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 373.38 195.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e77445b-c487-4c02-b134-b7ef5db7554a")
+		(property "Reference" "R22"
+			(at 375.92 194.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 375.92 196.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 372.364 195.326 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 373.38 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 373.38 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 373.38 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 373.38 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b5ebf13a-89f3-4dd6-bcc0-3ca4820219b6")
+		)
+		(pin "1"
+			(uuid "b394500a-140e-46b5-ae5b-4adc584d27e7")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -10078,6 +11691,247 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 342.9 195.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65498e6b-e055-48ff-95a3-59998031b15c")
+		(property "Reference" "R19"
+			(at 345.44 194.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 345.44 196.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 341.884 195.326 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 342.9 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 342.9 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 342.9 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 342.9 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "178a035c-483c-431f-864b-d11a65c019d5")
+		)
+		(pin "1"
+			(uuid "92847ad6-9af6-44e7-9e93-e96b5e16555c")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 322.58 205.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65dc3a1f-6bb8-458e-a32d-a4786d90ce46")
+		(property "Reference" "D12"
+			(at 326.39 206.0574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 326.39 208.5974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 322.58 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 322.58 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 322.58 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "XL-502SURD"
+			(at 322.58 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 322.58 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C2895492"
+			(at 322.58 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb81b0b8-50ad-4beb-8c03-633ad7d4bd5f")
+		)
+		(pin "2"
+			(uuid "989f7449-f759-4123-b959-9de0507f51af")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 201.93 176.53 0)
 		(unit 1)
@@ -10156,6 +12010,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 332.74 195.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c537889-da40-40f5-b43e-bf5fa7b149dd")
+		(property "Reference" "R18"
+			(at 335.28 194.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 335.28 196.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 331.724 195.326 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 332.74 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 332.74 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 332.74 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 332.74 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "10aba727-48ee-4a5f-8dec-5f3871379cc7")
+		)
+		(pin "1"
+			(uuid "8609a81b-cac9-4dbb-b56c-b16ae9c864b0")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 129.54 151.13 0)
 		(unit 1)
@@ -10189,7 +12158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 130.5052 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10222,7 +12191,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B475KAHNNNE"
 			(at 129.54 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10233,7 +12202,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digi-Key"
 			(at 129.54 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10244,7 +12213,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1276-1055-1-ND"
 			(at 129.54 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10265,6 +12234,132 @@
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 342.9 205.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "703f5607-a219-4869-9892-ed1c9b40b3c3")
+		(property "Reference" "D14"
+			(at 346.71 206.0574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 346.71 208.5974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 342.9 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 342.9 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 342.9 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "XL-502SURD"
+			(at 342.9 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 342.9 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C2895492"
+			(at 342.9 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c8769a2-38b1-4a34-b0fe-fb23300462d9")
+		)
+		(pin "2"
+			(uuid "c806d452-857f-484e-be91-4801b3882dbc")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -10496,7 +12591,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B104KBCNNNC"
 			(at 276.86 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10507,7 +12602,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 276.86 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10518,7 +12613,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C24497"
 			(at 276.86 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10578,7 +12673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 130.5052 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10611,7 +12706,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B475KAHNNNE"
 			(at 129.54 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10622,7 +12717,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digi-Key"
 			(at 129.54 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10633,7 +12728,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1276-1055-1-ND"
 			(at 129.54 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10654,6 +12749,251 @@
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x07")
+		(at 363.22 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d98f215-e1c8-4991-bfd5-dcdfd3e4f135")
+		(property "Reference" "J11"
+			(at 365.76 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Comm"
+			(at 365.76 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical"
+			(at 363.22 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 363.22 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B7B-PH-K-S"
+			(at 363.22 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 363.22 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "455-1709-ND"
+			(at 363.22 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "41c879ea-8bf7-4fd1-a669-999a6bd37a76")
+		)
+		(pin "3"
+			(uuid "9f7b33ed-dd32-4842-8fd8-8c9688c862d2")
+		)
+		(pin "5"
+			(uuid "45ef4522-9cc3-430d-a4c9-f66696b968ab")
+		)
+		(pin "1"
+			(uuid "a660e93d-80b9-492b-b92e-6c4fba2333aa")
+		)
+		(pin "7"
+			(uuid "08ea8faf-df70-4e15-a33f-7f870e01bad3")
+		)
+		(pin "4"
+			(uuid "f8bb75c8-8eda-4381-b0fd-43fb7664c498")
+		)
+		(pin "6"
+			(uuid "475670e0-c371-489b-b872-3029e8b60247")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 353.06 195.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8053f89c-6383-4092-952b-d0ee69215c61")
+		(property "Reference" "R20"
+			(at 355.6 194.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 355.6 196.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 352.044 195.326 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 353.06 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 353.06 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 353.06 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 353.06 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ad3ad0d6-4fef-4d23-9738-9ddbaa56bb1a")
+		)
+		(pin "1"
+			(uuid "228409dd-2595-42e5-b483-d24ac20a00bf")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -10741,6 +13081,258 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 353.06 205.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8233723d-102d-4a15-9560-2952687e2c69")
+		(property "Reference" "D15"
+			(at 356.87 206.0574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 356.87 208.5974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 353.06 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 353.06 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 353.06 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "XL-502SURD"
+			(at 353.06 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 353.06 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C2895492"
+			(at 353.06 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23f533d6-7bdb-48ed-94b2-438a93695bf2")
+		)
+		(pin "2"
+			(uuid "44cf387a-98ec-43be-812e-f0da041976a2")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 373.38 205.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8240a725-844d-4a69-a4d5-35e3eeef021f")
+		(property "Reference" "D17"
+			(at 377.19 206.0574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 377.19 208.5974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 373.38 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 373.38 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 373.38 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "XL-502SURD"
+			(at 373.38 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 373.38 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C2895492"
+			(at 373.38 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf515f51-bd55-417d-89e2-c9e3de26c604")
+		)
+		(pin "2"
+			(uuid "a046c64c-8613-412a-ac05-9055372f3efc")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 264.16 63.5 0)
 		(unit 1)
@@ -10807,7 +13399,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B105KCHNNNE"
 			(at 264.16 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10818,7 +13410,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 264.16 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10829,7 +13421,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C13832"
 			(at 264.16 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11249,6 +13841,236 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 363.22 195.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9808bd0c-3911-4a75-95bd-416fad054c31")
+		(property "Reference" "R21"
+			(at 365.76 194.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 365.76 196.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 362.204 195.326 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 363.22 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 363.22 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 363.22 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 363.22 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1327d004-2190-4cca-b368-c2b70c249c17")
+		)
+		(pin "1"
+			(uuid "01e35838-a1ab-4d50-8d2d-7bf1c3b63258")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 393.7 195.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ef8f28e-302c-423f-8e53-398f0ed0e155")
+		(property "Reference" "R24"
+			(at 396.24 194.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150Ω"
+			(at 396.24 196.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 392.684 195.326 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 393.7 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 393.7 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 393.7 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 393.7 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3b9dd66a-7877-4c2d-bc59-65d469df871b")
+		)
+		(pin "1"
+			(uuid "38b8d287-05f9-43f2-b427-87ff881d58eb")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 251.46 54.61 0)
 		(unit 1)
@@ -11327,6 +14149,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 332.74 205.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9d6aab4-cb4a-4caa-b112-02ccfd9c3917")
+		(property "Reference" "D13"
+			(at 336.55 206.0574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 336.55 208.5974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 332.74 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 332.74 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 332.74 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "XL-502SURD"
+			(at 332.74 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 332.74 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C2895492"
+			(at 332.74 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13eb4a75-5576-4333-b38f-14d978fadd16")
+		)
+		(pin "2"
+			(uuid "b5c48af3-fedb-4256-8961-04aee669e7fe")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 187.96 128.27 0)
 		(unit 1)
@@ -11360,7 +14308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 188.9252 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -11393,7 +14341,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GJM1555C1H180GB01D"
 			(at 187.96 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -11404,7 +14352,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digi-Key"
 			(at 187.96 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -11415,7 +14363,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "490-8082-1-ND"
 			(at 187.96 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -11924,7 +14872,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B105KCHNNNE"
 			(at 251.46 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11935,7 +14883,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 251.46 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11946,7 +14894,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C13832"
 			(at 251.46 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12039,7 +14987,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B104KBCNNNC"
 			(at 189.23 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -12050,7 +14998,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 189.23 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -12061,7 +15009,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C24497"
 			(at 189.23 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -12456,7 +15404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 130.5052 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12489,7 +15437,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B475KAHNNNE"
 			(at 129.54 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12500,7 +15448,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digi-Key"
 			(at 129.54 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12511,7 +15459,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1276-1055-1-ND"
 			(at 129.54 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -12610,6 +15558,132 @@
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 393.7 205.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f03b1530-7559-4046-b567-0a98b7d56fcc")
+		(property "Reference" "D19"
+			(at 397.51 206.0574 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red"
+			(at 397.51 208.5974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 393.7 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 393.7 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 393.7 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "XL-502SURD"
+			(at 393.7 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 393.7 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C2895492"
+			(at 393.7 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52c41f21-7c31-4188-a826-153affee954b")
+		)
+		(pin "2"
+			(uuid "41a1134a-6e17-4b54-a2d9-4773498eb4cf")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -12766,6 +15840,84 @@
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 358.14 214.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f47bb1ef-37c8-4bf1-a735-f54543f63ac5")
+		(property "Reference" "#PWR099"
+			(at 358.14 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 358.14 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 358.14 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a1cc5f0-ebd5-4e2c-866a-b33725f1f310")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -13132,8 +16284,8 @@
 		)
 	)
 	(sheet
-		(at 144.78 215.9)
-		(size 40.64 13.97)
+		(at 148.59 219.71)
+		(size 40.64 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -13148,7 +16300,7 @@
 		)
 		(uuid "8b242891-5a94-42c4-a876-ce724133b55c")
 		(property "Sheetname" "Power & Regulators"
-			(at 144.78 215.1884 0)
+			(at 148.59 218.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13159,7 +16311,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 144.78 230.4546 0)
+			(at 148.59 225.3746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13167,6 +16319,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "HV_SENSE" output
+			(at 189.23 222.25 0)
+			(uuid "ffc0c4e4-4345-4a97-928c-7b6803b3be5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

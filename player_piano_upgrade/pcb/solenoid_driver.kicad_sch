@@ -323,6 +323,186 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_US"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 -1.27)
+					(mid 0 -0.5572)
+					(end 2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -1880,7 +2060,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized_US")
 		(at 180.34 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -1892,7 +2072,7 @@
 		(fields_autoplaced yes)
 		(uuid "2aa64dff-427e-4631-9b5f-61368d0521d1")
 		(property "Reference" "C12"
-			(at 184.15 93.9799 0)
+			(at 184.15 93.3449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1903,7 +2083,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 184.15 96.5199 0)
+			(at 184.15 95.8849 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1914,7 +2094,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_10x12.5"
-			(at 181.3052 99.06 0)
+			(at 180.34 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1935,7 +2115,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 180.34 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2129,7 +2309,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2223,7 +2403,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Polarized_US")
 		(at 119.38 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -2235,7 +2415,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f4c17d0-0a31-4dfe-b007-281d34f8fb24")
 		(property "Reference" "C11"
-			(at 123.19 93.9799 0)
+			(at 123.19 93.3449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2246,7 +2426,7 @@
 			)
 		)
 		(property "Value" "10μF"
-			(at 123.19 96.5199 0)
+			(at 123.19 95.8849 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2257,7 +2437,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_10x12.5"
-			(at 120.3452 99.06 0)
+			(at 119.38 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2278,7 +2458,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Polarized capacitor, US symbol"
 			(at 119.38 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2471,7 +2651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 152.654 108.204 90)
 			(hide yes)
 			(show_name no)
@@ -2901,7 +3081,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B105KCHNNNE"
 			(at 191.77 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2912,7 +3092,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 191.77 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2923,7 +3103,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C13832"
 			(at 191.77 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3467,7 +3647,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 91.694 108.204 90)
 			(hide yes)
 			(show_name no)
@@ -3627,7 +3807,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B105KCHNNNE"
 			(at 130.81 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3638,7 +3818,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 130.81 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3649,7 +3829,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C13832"
 			(at 130.81 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4374,7 +4554,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 158.75 93.98 0)
 			(hide yes)
 			(show_name no)
