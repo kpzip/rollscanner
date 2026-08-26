@@ -1,0 +1,4 @@
+(version 1)
+(rule "Ignore Board Edge for Oval NPTH"
+    (constraint edge_clearance (min -1mm))
+    (condition "A.Type == 'Pad' && A.Pad_Type == 'NPTH, Mechanical'"))

@@ -1981,7 +1981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05d98743-79b2-4ed5-833c-1bdcac40da49")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR043"
 			(at 180.34 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2041,19 +2041,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "#PWR056")
+					(reference "#PWR079")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "#PWR044")
+					(reference "#PWR067")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "#PWR032")
+					(reference "#PWR055")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "#PWR019")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2071,7 +2071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2aa64dff-427e-4631-9b5f-61368d0521d1")
-		(property "Reference" "C12"
+		(property "Reference" "C23"
 			(at 184.15 93.3449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2168,19 +2168,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "C25")
+					(reference "C35")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "C21")
+					(reference "C31")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "C17")
+					(reference "C27")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "C12")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -2198,7 +2198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "388e32e2-fc5e-4b57-bd0c-cf80e218df36")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR034"
 			(at 105.41 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2258,19 +2258,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "#PWR047")
+					(reference "#PWR070")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "#PWR035")
+					(reference "#PWR058")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "#PWR024")
+					(reference "#PWR046")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "#PWR014")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2289,7 +2289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bf40e5b-a7b2-4397-87ac-ca20a1938702")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 97.79 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2384,19 +2384,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "J8")
+					(reference "J10")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "J6")
+					(reference "J8")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2414,7 +2414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f4c17d0-0a31-4dfe-b007-281d34f8fb24")
-		(property "Reference" "C11"
+		(property "Reference" "C21"
 			(at 123.19 93.3449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2511,19 +2511,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "C23")
+					(reference "C33")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "C19")
+					(reference "C29")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "C15")
+					(reference "C25")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "C11")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -2541,7 +2541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4413bc04-c451-45b9-b88c-4cee465b3ab8")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR037"
 			(at 119.38 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2601,19 +2601,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "#PWR050")
+					(reference "#PWR073")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "#PWR038")
+					(reference "#PWR061")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "#PWR027")
+					(reference "#PWR049")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "#PWR017")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2631,7 +2631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44389453-9c22-4f5b-b502-c24cd9f5d4d5")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 152.4 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2726,19 +2726,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2756,7 +2756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "592cff79-4b40-4569-a549-6a9ffcfe4648")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR036"
 			(at 119.38 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2816,19 +2816,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "#PWR049")
+					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "#PWR037")
+					(reference "#PWR060")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "#PWR026")
+					(reference "#PWR048")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "#PWR016")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2846,7 +2846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "611b9892-357d-4bf3-8eaa-18946a0dbe89")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR044"
 			(at 191.77 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2906,19 +2906,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "#PWR057")
+					(reference "#PWR080")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "#PWR045")
+					(reference "#PWR068")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "#PWR033")
+					(reference "#PWR056")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "#PWR022")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2936,7 +2936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6401f36e-8120-4091-9b42-4cd225385a14")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR040"
 			(at 166.37 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2996,19 +2996,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "#PWR053")
+					(reference "#PWR076")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "#PWR041")
+					(reference "#PWR064")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "#PWR030")
+					(reference "#PWR052")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "#PWR015")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -3026,7 +3026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6798829d-d962-48e6-9a3b-b0aa2010f56e")
-		(property "Reference" "C14"
+		(property "Reference" "C24"
 			(at 195.58 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3123,19 +3123,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "C26")
+					(reference "C36")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "C22")
+					(reference "C32")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "C18")
+					(reference "C28")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "C14")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -3298,7 +3298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73d1c2b0-8e57-4636-98cf-82bb40cbda68")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR039"
 			(at 130.81 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3358,19 +3358,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "#PWR052")
+					(reference "#PWR075")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "#PWR040")
+					(reference "#PWR063")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "#PWR029")
+					(reference "#PWR051")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "#PWR020")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3388,7 +3388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75b3b037-6e2c-43da-b61a-75f2d7d4cb7b")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR041"
 			(at 166.37 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3448,19 +3448,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "#PWR054")
+					(reference "#PWR077")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "#PWR042")
+					(reference "#PWR065")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "#PWR012")
+					(reference "#PWR053")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "#PWR011")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3627,7 +3627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8061057e-cd1a-467b-98e2-4231ebdd794c")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 91.44 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3722,19 +3722,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3752,7 +3752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "895214c8-22c8-4097-90fb-ddb09cd7fbc8")
-		(property "Reference" "C13"
+		(property "Reference" "C22"
 			(at 134.62 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3849,19 +3849,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "C24")
+					(reference "C34")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "C20")
+					(reference "C30")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "C16")
+					(reference "C26")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "C13")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -3879,7 +3879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "923ddb31-a085-4ed6-849c-a69f3b1b0668")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR045"
 			(at 191.77 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3939,19 +3939,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "#PWR058")
+					(reference "#PWR081")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "#PWR046")
+					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "#PWR034")
+					(reference "#PWR057")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "#PWR023")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3969,7 +3969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af9a4af8-846a-4dad-9635-7ea121a28ec6")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR042"
 			(at 180.34 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4029,19 +4029,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "#PWR055")
+					(reference "#PWR078")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "#PWR043")
+					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "#PWR031")
+					(reference "#PWR054")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "#PWR018")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4059,7 +4059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4d7e904-baf8-4163-a64a-38305a78b310")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR038"
 			(at 130.81 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4119,19 +4119,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "#PWR051")
+					(reference "#PWR074")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "#PWR039")
+					(reference "#PWR062")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "#PWR028")
+					(reference "#PWR050")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "#PWR021")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4443,7 +4443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee4f652a-cfdf-41d1-805b-c32a43c7d6e8")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR035"
 			(at 105.41 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4503,19 +4503,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "#PWR048")
+					(reference "#PWR071")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "#PWR036")
+					(reference "#PWR059")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "#PWR025")
+					(reference "#PWR047")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "#PWR013")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4534,7 +4534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f60f1905-0063-4f8c-ad7f-21e0d33a4fd3")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 158.75 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4629,19 +4629,19 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/022f8a39-1282-49c2-9dac-9d880e9ae535"
-					(reference "J9")
+					(reference "J11")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/db6e3ca2-6287-4628-bb5c-2a9640916998"
-					(reference "J7")
+					(reference "J9")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/f28cc284-5077-40cb-bd9c-6e2e5d07b421"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/fb97817a-5da5-4496-947f-98a2b3e16b68"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)

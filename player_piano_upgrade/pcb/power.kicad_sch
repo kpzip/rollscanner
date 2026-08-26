@@ -216,6 +216,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2151,6 +2274,12 @@
 		(uuid "25eeb810-a3e5-4d88-84f7-4c9a320a310a")
 	)
 	(junction
+		(at 160.02 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29741afb-0b54-4ad5-87c5-db70036eb4fc")
+	)
+	(junction
 		(at 260.35 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2161,6 +2290,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3600e606-69ef-4f4e-9f04-f556b9ae9327")
+	)
+	(junction
+		(at 160.02 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "549a8f35-ef5b-48b1-aa94-03b260be9302")
 	)
 	(junction
 		(at 152.4 140.97)
@@ -2248,6 +2383,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 91.44) (xy 168.91 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04358dc5-3c7c-4a1f-bc40-8aa780c59d7b")
+	)
+	(wire
+		(pts
 			(xy 243.84 151.13) (xy 274.32 151.13)
 		)
 		(stroke
@@ -2305,6 +2450,16 @@
 			(type default)
 		)
 		(uuid "1d3cb391-9ae4-4689-a1ab-f83638ee87c1")
+	)
+	(wire
+		(pts
+			(xy 168.91 93.98) (xy 168.91 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f042b05-488a-4ea0-8ad5-f60668efe926")
 	)
 	(wire
 		(pts
@@ -2428,6 +2583,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 140.97) (xy 187.96 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fb9da9-b67a-4a44-8d42-ed23ae8fd3d4")
+	)
+	(wire
+		(pts
 			(xy 320.04 118.11) (xy 308.61 118.11)
 		)
 		(stroke
@@ -2455,6 +2620,16 @@
 			(type default)
 		)
 		(uuid "47b7ac78-1b34-4f30-99f6-4058473491e5")
+	)
+	(wire
+		(pts
+			(xy 187.96 140.97) (xy 187.96 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485be129-b133-4e6f-a299-30d8dcf8b26e")
 	)
 	(wire
 		(pts
@@ -2538,6 +2713,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 146.05) (xy 292.1 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d19caa-a480-4579-9081-38b8d1fdf879")
+	)
+	(wire
+		(pts
 			(xy 308.61 95.25) (xy 308.61 97.79)
 		)
 		(stroke
@@ -2545,6 +2730,16 @@
 			(type default)
 		)
 		(uuid "68509944-5e20-42b8-8584-dcbd8e1d27a9")
+	)
+	(wire
+		(pts
+			(xy 168.91 91.44) (xy 168.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b679543-f2c9-4133-939a-39c47c329583")
 	)
 	(wire
 		(pts
@@ -2718,6 +2913,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 146.05) (xy 292.1 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a981a80d-8b1d-4424-b857-b0f05741f985")
+	)
+	(wire
+		(pts
 			(xy 181.61 85.09) (xy 181.61 87.63)
 		)
 		(stroke
@@ -2755,6 +2960,16 @@
 			(type default)
 		)
 		(uuid "c6e3661a-fec5-4ebb-9e69-136086988f6b")
+	)
+	(wire
+		(pts
+			(xy 160.02 93.98) (xy 168.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72e7112-6d6b-497e-872c-d2108fa91f2b")
 	)
 	(wire
 		(pts
@@ -2899,7 +3114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03a8effa-afef-486d-a5a9-c7f5c4650763")
-		(property "Reference" "C40"
+		(property "Reference" "C42"
 			(at 251.46 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2994,7 +3209,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "C40")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -3012,7 +3227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "090452ea-062e-49dc-b416-3f11e597fa6b")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR083"
 			(at 151.13 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3072,7 +3287,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#PWR091")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -3205,7 +3420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14bf30ef-bbe4-40c5-af02-149264ca3ac5")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR099"
 			(at 320.04 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3265,7 +3480,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#PWR096")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -3396,7 +3611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27fbd090-159a-44bb-b7f6-23491ac2bec8")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR085"
 			(at 167.64 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -3456,7 +3671,86 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#PWR066")
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 187.96 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d4ff577-2c36-44a5-9016-d1b5ffa905c9")
+		(property "Reference" "TP4"
+			(at 190.5 130.0479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 190.5 132.5879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 193.04 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 187.96 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc86418c-a8c2-4eaa-9109-df67aa1d0dee")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -3474,7 +3768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fc00193-745e-47bf-a398-13e44bd1daf6")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR084"
 			(at 152.4 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -3534,7 +3828,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#PWR065")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -3552,7 +3846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "482e583b-afda-4efd-b427-acbc8333caba")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG03"
 			(at 274.32 141.605 0)
 			(hide yes)
 			(show_name no)
@@ -3612,7 +3906,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#FLG01")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -3744,7 +4038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b882afc-22c2-485a-9de2-9b1d7b0bdace")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR090"
 			(at 205.74 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -3804,7 +4098,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#PWR085")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -3822,7 +4116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a8024fc-a799-4f48-b2c3-53346ce098c1")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 322.58 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3919,7 +4213,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3937,7 +4231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fa8b5d7-e264-47cf-8636-197d2f993bb6")
-		(property "Reference" "C38"
+		(property "Reference" "C39"
 			(at 185.42 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4034,7 +4328,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "C38")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -4052,7 +4346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61bc73d1-07ca-47cd-9b30-a890457d6d2d")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR096"
 			(at 297.18 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4112,7 +4406,86 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#PWR095")
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c1eae9b-ab73-42ad-aa31-c173364c2333")
+		(property "Reference" "TP3"
+			(at 171.45 98.5519 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 101.0919 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 163.83 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.91 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e38fa8e6-ad13-4ca0-934e-aaeba08d2e12")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -4130,7 +4503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ee8b8fd-68ac-445c-abb6-27a33c618991")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR088"
 			(at 181.61 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4190,7 +4563,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#PWR067")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -4208,7 +4581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fbf7727-fe1d-4434-a025-51011fa9c770")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR087"
 			(at 181.61 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4268,7 +4641,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#PWR090")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -4286,7 +4659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7021ebd9-5aa1-43f3-8904-5a7ed374a208")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR082"
 			(at 151.13 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4346,7 +4719,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#PWR092")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -4364,7 +4737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71d0d9a0-c131-4de1-9b25-c72aa9221aa5")
-		(property "Reference" "C41"
+		(property "Reference" "C43"
 			(at 288.29 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4461,7 +4834,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "C41")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -4605,7 +4978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aa41e95-3bb8-4947-b862-804c09575a85")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR093"
 			(at 260.35 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4665,7 +5038,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#PWR094")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -4683,7 +5056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dd491f3-e1e7-4186-8a43-4041270659d5")
-		(property "Reference" "C46"
+		(property "Reference" "C38"
 			(at 185.42 92.0749 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4780,7 +5153,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "C46")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -4798,7 +5171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ef9c0fc-dfae-4ff4-8426-4c3728757d78")
-		(property "Reference" "C39"
+		(property "Reference" "C41"
 			(at 209.55 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4895,7 +5268,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "C39")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -4913,7 +5286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93dee7c3-ced7-4e4b-a5d7-08dd989e536b")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR089"
 			(at 205.74 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4973,7 +5346,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#PWR087")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -5185,7 +5558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4e11e73-5448-49fb-9c93-9ac9be2b942f")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 262.89 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5282,7 +5655,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5300,7 +5673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab719af2-e71d-4e31-8b6d-f4dfd39af440")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR091"
 			(at 231.14 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -5360,7 +5733,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#PWR086")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -5378,7 +5751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b23d0063-8bcf-4334-88ee-c197df2aec9a")
-		(property "Reference" "R16"
+		(property "Reference" "R14"
 			(at 299.72 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5475,7 +5848,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "R16")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5493,7 +5866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5e11726-d9a3-4254-a05c-df2c22596ed8")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR092"
 			(at 260.35 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5553,7 +5926,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#PWR093")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -5571,7 +5944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9e112f5-7e5a-4ab2-bc19-c9ea9b1bb0e6")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 160.02 86.995 0)
 			(hide yes)
 			(show_name no)
@@ -5631,7 +6004,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -5649,7 +6022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfa4f208-121b-4d15-9d36-d51721907b8f")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 262.89 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5746,7 +6119,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5765,7 +6138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c188f5d1-0ac0-4572-9645-04d3d4e79380")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 160.02 98.425 0)
 			(hide yes)
 			(show_name no)
@@ -5825,7 +6198,86 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#FLG03")
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 292.1 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdaaa190-dba2-4a01-92fa-37c135b273b3")
+		(property "Reference" "TP5"
+			(at 294.64 138.9379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+5V"
+			(at 294.64 141.4779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 297.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 292.1 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dccf8c05-80b2-431a-9591-91ed4f3c4084")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -5843,7 +6295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1a7658e-fa6d-4977-84c7-75b001a78eaa")
-		(property "Reference" "D9"
+		(property "Reference" "D11"
 			(at 323.85 112.0774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5951,7 +6403,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "D9")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -6095,7 +6547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc658ccc-e467-4742-b1c9-6968285d6c03")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR086"
 			(at 181.61 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6155,7 +6607,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#PWR089")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -6173,7 +6625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1c0350e-8c7e-4d73-8f36-97fef34ec00b")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR095"
 			(at 284.48 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6233,7 +6685,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#PWR088")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -6251,7 +6703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2a73555-77f3-419e-bd72-50b21fe2586b")
-		(property "Reference" "D11"
+		(property "Reference" "D9"
 			(at 300.99 112.0774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6359,7 +6811,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "D11")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -6570,7 +7022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4af5d54-4166-46be-a003-c9455f18d365")
-		(property "Reference" "C42"
+		(property "Reference" "C40"
 			(at 198.12 92.0749 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6667,7 +7119,7 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "C42")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -6685,7 +7137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebd38d78-40d4-4d84-8814-6561b9463ae2")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR094"
 			(at 284.48 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6745,7 +7197,86 @@
 		(instances
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
-					(reference "#PWR068")
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f350bf37-a1d0-4686-b19b-50a2e739ee1a")
+		(property "Reference" "TP2"
+			(at 171.45 84.3279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VIN"
+			(at 171.45 86.8679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 173.99 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 168.91 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79a2c8e1-207f-45f2-ae7d-881fed8cd054")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
