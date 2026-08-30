@@ -2433,6 +2433,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 106.68) (xy 247.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18507b2d-6b97-4bdf-aaf0-c42f9ca06320")
+	)
+	(wire
+		(pts
 			(xy 181.61 140.97) (xy 181.61 143.51)
 		)
 		(stroke
@@ -2773,6 +2783,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 106.68) (xy 247.65 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77fe7920-61d4-4c91-b48f-e4945adce930")
+	)
+	(wire
+		(pts
 			(xy 259.08 146.05) (xy 243.84 146.05)
 		)
 		(stroke
@@ -2790,6 +2810,16 @@
 			(type default)
 		)
 		(uuid "7d01aead-4ae7-4c37-b187-3a91bf3f9b17")
+	)
+	(wire
+		(pts
+			(xy 247.65 116.84) (xy 247.65 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d055c7a-03ba-4d75-ab50-9eae973d659b")
 	)
 	(wire
 		(pts
@@ -5353,6 +5383,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 247.65 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "960b3e13-83c8-49c1-bc34-50c14f7fe670")
+		(property "Reference" "C44"
+			(at 251.46 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 251.46 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 246.6848 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 247.65 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 247.65 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL31B104KBCNNNC"
+			(at 247.65 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C24497"
+			(at 247.65 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5de591c-8084-4d5d-9c97-b4c9f1386938")
+		)
+		(pin "2"
+			(uuid "188fc7da-4e57-4cc4-b739-b3b6e6e0f819")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 308.61 120.65 0)
 		(unit 1)
@@ -6615,6 +6760,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 247.65 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddc795ee-5065-4ed1-be2d-37826fb7bc8c")
+		(property "Reference" "#PWR0101"
+			(at 247.65 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f826fac-f0f6-4769-9b10-d7ddbb71e948")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a/8b242891-5a94-42c4-a876-ce724133b55c"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 284.48 160.02 0)
 		(unit 1)
 		(body_style 1)
@@ -7044,7 +7267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x12.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
 			(at 194.31 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7088,7 +7311,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "HU2G100M-CRG12"
+		(property "Manufacturer Part Number" "HBW100M1JTR-0606"
 			(at 194.31 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7099,7 +7322,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "C117830"
+		(property "Vendor Part Number" "C3031613"
 			(at 194.31 93.98 0)
 			(hide yes)
 			(show_name no)

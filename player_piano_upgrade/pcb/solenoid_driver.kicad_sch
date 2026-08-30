@@ -2093,7 +2093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x12.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
 			(at 180.34 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2126,7 +2126,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "HU2G100M-CRG12"
+		(property "Manufacturer Part Number" "HBW100M1JTR-0606"
 			(at 180.34 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2148,7 +2148,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "C117830"
+		(property "Vendor Part Number" "C3031613"
 			(at 180.34 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2436,7 +2436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x12.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
 			(at 119.38 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2469,7 +2469,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "HU2G100M-CRG12"
+		(property "Manufacturer Part Number" "HBW100M1JTR-0606"
 			(at 119.38 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2491,7 +2491,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "C117830"
+		(property "Vendor Part Number" "C3031613"
 			(at 119.38 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2641,7 +2641,7 @@
 				)
 			)
 		)
-		(property "Value" "?Ω"
+		(property "Value" "18Ω"
 			(at 152.4 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3637,7 +3637,7 @@
 				)
 			)
 		)
-		(property "Value" "?Ω"
+		(property "Value" "18Ω"
 			(at 91.44 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)

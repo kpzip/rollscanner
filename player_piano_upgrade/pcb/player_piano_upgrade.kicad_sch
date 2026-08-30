@@ -4664,6 +4664,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 156.21) (xy 300.99 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ec3c8b-f08d-4c47-a9dd-6edf571c52e3")
+	)
+	(wire
+		(pts
 			(xy 142.24 154.94) (xy 142.24 157.48)
 		)
 		(stroke
@@ -5001,6 +5011,16 @@
 			(type default)
 		)
 		(uuid "5fb0e848-bb05-47ec-a348-d390a5bde901")
+	)
+	(wire
+		(pts
+			(xy 300.99 144.78) (xy 300.99 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61362a61-caf3-436f-af9a-9045837f9949")
 	)
 	(wire
 		(pts
@@ -6912,6 +6932,16 @@
 		)
 		(uuid "622ca7f2-34e8-4efa-bc6d-a7a1d1f1300a")
 	)
+	(label "MIDI_TX"
+		(at 300.99 163.83 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "649f8dcc-f7e5-4896-9896-69201fc9680a")
+	)
 	(label "GD_EN_6"
 		(at 121.92 156.21 180)
 		(effects
@@ -7253,6 +7283,84 @@
 		(uuid "ff156808-b3cb-45f4-ac09-bf421de580e5")
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 300.99 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03b5889d-c32e-4c80-ae1c-cd58090daa53")
+		(property "Reference" "#PWR0100"
+			(at 300.99 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 300.99 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.99 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 300.99 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a87e5a60-2a32-459b-b9e8-89868ec068a6")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 273.05 146.05 0)
 		(unit 1)
@@ -7261,7 +7369,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "076f9f7b-22a6-4760-80bb-b3a59856bfa8")
 		(property "Reference" "R3"
@@ -8558,6 +8666,121 @@
 			(project "player_piano_upgrade"
 				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 300.99 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "193a11b8-5a68-498d-84e8-fea6d3c3d80f")
+		(property "Reference" "R17"
+			(at 303.53 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7kΩ"
+			(at 303.53 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 302.006 152.654 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 300.99 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 300.99 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" ""
+			(at 300.99 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" ""
+			(at 300.99 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2e2088b5-1857-4a43-95eb-29bc4d68874d")
+		)
+		(pin "1"
+			(uuid "8de69eb3-6be0-46ba-b25a-478a7aeccf16")
+		)
+		(instances
+			(project "player_piano_upgrade"
+				(path "/f9755fcb-cf20-4035-b258-023be059e24a"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -14136,7 +14359,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f7ba2665-9fbc-4f2d-9b59-64b7f9930c86")
 		(property "Reference" "R2"
