@@ -12878,7 +12878,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/HCPL2731-D.pdf"
+		(property "Datasheet" "https://docs.broadcom.com/doc/AV02-1359EN"
 			(at 359.156 67.31 0)
 			(hide yes)
 			(show_name no)

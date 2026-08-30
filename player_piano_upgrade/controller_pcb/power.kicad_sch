@@ -6676,7 +6676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_10x12.5"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
 			(at 170.18 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6720,7 +6720,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "HU2G100M-CRG12"
+		(property "Manufacturer Part Number" "HBW100M1JTR-0606"
 			(at 170.18 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6731,7 +6731,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "C117830"
+		(property "Vendor Part Number" "C3031613"
 			(at 170.18 100.33 0)
 			(hide yes)
 			(show_name no)
