@@ -2353,6 +2353,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 113.03) (xy 223.52 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0100c804-87d2-4b7d-a8ea-2921b57c2142")
+	)
+	(wire
+		(pts
 			(xy 284.48 124.46) (xy 284.48 127)
 		)
 		(stroke
@@ -2450,6 +2460,16 @@
 			(type default)
 		)
 		(uuid "347e2229-ad13-4e94-9cc5-af10544c4732")
+	)
+	(wire
+		(pts
+			(xy 223.52 123.19) (xy 223.52 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3589d5c9-075a-407c-aade-2099c8b7c860")
 	)
 	(wire
 		(pts
@@ -2980,6 +3000,16 @@
 			(type default)
 		)
 		(uuid "de9f63c2-84bb-4233-8999-0c09fc1b46a4")
+	)
+	(wire
+		(pts
+			(xy 236.22 113.03) (xy 223.52 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8b8cd6-e5b6-4dbc-88cc-d5dda3835f68")
 	)
 	(wire
 		(pts
@@ -4528,6 +4558,199 @@
 			(project "player_piano_upgrade_controller"
 				(path "/d36acd43-faba-47be-b09c-6b88eb46c0a4/51e5e703-84ea-48e8-9208-5061351c345a"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "439dcc66-6486-4354-a1c4-767a8a832bae")
+		(property "Reference" "#PWR058"
+			(at 223.52 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "601a2616-e669-4a51-8664-1d0e8271e3ba")
+		)
+		(instances
+			(project "player_piano_upgrade_controller"
+				(path "/d36acd43-faba-47be-b09c-6b88eb46c0a4/51e5e703-84ea-48e8-9208-5061351c345a"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 223.52 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49605c2d-a09a-4f01-81e8-9741b928a94c")
+		(property "Reference" "C15"
+			(at 227.33 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 227.33 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 222.5548 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 223.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 223.52 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL31B104KBCNNNC"
+			(at 223.52 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C24497"
+			(at 223.52 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "369414bb-afba-4763-a36e-b876ed5c51f4")
+		)
+		(pin "2"
+			(uuid "aebc4b37-04fe-4421-8be6-d8fbdc63dc8d")
+		)
+		(instances
+			(project "player_piano_upgrade_controller"
+				(path "/d36acd43-faba-47be-b09c-6b88eb46c0a4/51e5e703-84ea-48e8-9208-5061351c345a"
+					(reference "C15")
 					(unit 1)
 				)
 			)

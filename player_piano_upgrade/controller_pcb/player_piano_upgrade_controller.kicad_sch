@@ -5764,10 +5764,6 @@
 		(uuid "7c05251b-df5f-4820-8f8f-b92ef8e48155")
 	)
 	(no_connect
-		(at 160.02 69.85)
-		(uuid "818f066d-9b36-4a48-a780-d3a2a28947bf")
-	)
-	(no_connect
 		(at 58.42 224.79)
 		(uuid "8e2ddba9-7253-40b3-bd73-052cc9cf41be")
 	)
@@ -5832,6 +5828,16 @@
 			(type default)
 		)
 		(uuid "008ff287-a3a8-4a20-a6fb-a001b212c05b")
+	)
+	(wire
+		(pts
+			(xy 160.02 69.85) (xy 173.99 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020d5326-3f88-4d3c-b9de-7c8c8dc37169")
 	)
 	(wire
 		(pts
@@ -6275,6 +6281,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 62.23) (xy 191.77 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3977b50b-1f9b-4e85-955c-fc8ade7dbb1f")
+	)
+	(wire
+		(pts
 			(xy 189.23 148.59) (xy 189.23 151.13)
 		)
 		(stroke
@@ -6395,6 +6411,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 72.39) (xy 191.77 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a772bf1-7269-4c65-b91c-b76e00131154")
+	)
+	(wire
+		(pts
 			(xy 147.32 52.07) (xy 147.32 54.61)
 		)
 		(stroke
@@ -6502,6 +6528,16 @@
 			(type default)
 		)
 		(uuid "550eec6e-c184-485d-9ed7-5ef42311fee5")
+	)
+	(wire
+		(pts
+			(xy 262.89 96.52) (xy 262.89 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57df010f-0550-4f69-bc3e-989c83f99ca5")
 	)
 	(wire
 		(pts
@@ -7175,6 +7211,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 81.28) (xy 262.89 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b13622-56fd-471d-b277-621ef708b5dd")
+	)
+	(wire
+		(pts
 			(xy 318.77 167.64) (xy 335.28 167.64)
 		)
 		(stroke
@@ -7565,6 +7611,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 71.12) (xy 262.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc67a24f-321d-45b8-aaa5-263b79a74f4b")
+	)
+	(wire
+		(pts
 			(xy 101.6 153.67) (xy 101.6 156.21)
 		)
 		(stroke
@@ -7643,6 +7699,16 @@
 		)
 		(uuid "0a7340c8-16ba-45a2-8aaa-64baf627c512")
 	)
+	(label "IO_3"
+		(at 173.99 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b801cf5-bd4c-4b01-ba01-737abe259f21")
+	)
 	(label "SCL"
 		(at 173.99 85.09 180)
 		(effects
@@ -7662,6 +7728,16 @@
 			(justify right bottom)
 		)
 		(uuid "1f21ed1a-9f68-4ef9-ad4b-2aec8f145b98")
+	)
+	(label "IO_3"
+		(at 262.89 86.36 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f424ce5-634b-47d8-8b0f-72a947d8eb69")
 	)
 	(label "TXD0"
 		(at 173.99 130.81 180)
@@ -7932,6 +8008,16 @@
 			(justify left bottom)
 		)
 		(uuid "dec64784-d658-44d6-93e2-edf113e0b39b")
+	)
+	(label "MIDI_OUT_RX"
+		(at 191.77 85.09 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5a21f11-b7fa-4e50-bae9-7820707780da")
 	)
 	(rule_area
 		(exclude_from_sim no)
@@ -9307,6 +9393,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 262.89 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "1c12edc3-1ed5-44d7-9741-c1026cb60f87")
+		(property "Reference" "R19"
+			(at 265.43 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 265.43 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 263.906 77.724 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RMCF1206FT10K0"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "RMCF1206FT10K0CT-ND"
+			(at 262.89 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d9b6bbac-fd02-45f7-9f6e-0a4ae401b9e3")
+		)
+		(pin "1"
+			(uuid "f4da643f-0e72-4eda-884b-28a13fce7115")
+		)
+		(instances
+			(project "player_piano_upgrade_controller"
+				(path "/d36acd43-faba-47be-b09c-6b88eb46c0a4"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:DIN-5_180degree")
 		(at 342.9 109.22 180)
 		(unit 1)
@@ -9768,6 +9969,84 @@
 			(project "player_piano_upgrade_controller"
 				(path "/d36acd43-faba-47be-b09c-6b88eb46c0a4"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 262.89 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "364a15de-7db8-44d5-8dda-6d1c646a6bdf")
+		(property "Reference" "#PWR055"
+			(at 262.89 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 262.89 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 262.89 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "732598d1-2232-4870-a1e5-aea3ee545287")
+		)
+		(instances
+			(project "player_piano_upgrade_controller"
+				(path "/d36acd43-faba-47be-b09c-6b88eb46c0a4"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -10921,6 +11200,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 262.89 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b59b68c-aa03-455a-a7ec-f661d21ff40f")
+		(property "Reference" "#PWR056"
+			(at 262.89 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0533580-0759-40ff-8785-3d7e24c48347")
+		)
+		(instances
+			(project "player_piano_upgrade_controller"
+				(path "/d36acd43-faba-47be-b09c-6b88eb46c0a4"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 265.43 168.91 0)
 		(unit 1)
@@ -11851,6 +12208,121 @@
 			(project "player_piano_upgrade_controller"
 				(path "/d36acd43-faba-47be-b09c-6b88eb46c0a4"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 191.77 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f86e74f-7551-4b64-9ec2-4fbad5a6cf2f")
+		(property "Reference" "R21"
+			(at 194.31 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 194.31 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 192.786 68.834 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 191.77 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 191.77 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RMCF1206FT10K0"
+			(at 191.77 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "RMCF1206FT10K0CT-ND"
+			(at 191.77 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2200e6ee-4215-46e4-ba2b-06f6a8657d84")
+		)
+		(pin "1"
+			(uuid "ea892287-bf74-49a7-8ded-49c146c17d6e")
+		)
+		(instances
+			(project "player_piano_upgrade_controller"
+				(path "/d36acd43-faba-47be-b09c-6b88eb46c0a4"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -13520,6 +13992,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 262.89 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d07ac704-c82c-42cc-9c8d-a38e646aaa64")
+		(property "Reference" "R20"
+			(at 265.43 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 265.43 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 263.906 92.964 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 262.89 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 262.89 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RMCF1206FT10K0"
+			(at 262.89 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "RMCF1206FT10K0CT-ND"
+			(at 262.89 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "37a527dd-e4a0-44ba-b5ce-ccce13186b0c")
+		)
+		(pin "1"
+			(uuid "1170b584-ca9a-4bd5-a53a-cb7522c695b4")
+		)
+		(instances
+			(project "player_piano_upgrade_controller"
+				(path "/d36acd43-faba-47be-b09c-6b88eb46c0a4"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 189.23 0)
 		(unit 1)
@@ -13592,6 +14179,84 @@
 			(project "player_piano_upgrade_controller"
 				(path "/d36acd43-faba-47be-b09c-6b88eb46c0a4"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 191.77 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2b3e571-ea2d-4c2a-acf1-2d1dd9e1048a")
+		(property "Reference" "#PWR057"
+			(at 191.77 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 191.77 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 191.77 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7123fb33-025b-4d09-887d-476207f750b1")
+		)
+		(instances
+			(project "player_piano_upgrade_controller"
+				(path "/d36acd43-faba-47be-b09c-6b88eb46c0a4"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
