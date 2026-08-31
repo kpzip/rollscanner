@@ -646,14 +646,14 @@
         },
         {
           "group_by": false,
-          "label": "Vendor",
-          "name": "Vendor",
+          "label": "Vendor Part Number",
+          "name": "Vendor Part Number",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Vendor Part Number",
-          "name": "Vendor Part Number",
+          "label": "Vendor",
+          "name": "Vendor",
           "show": true
         },
         {
@@ -677,7 +677,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"

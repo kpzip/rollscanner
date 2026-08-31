@@ -3233,7 +3233,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220Ω"
+		(property "Value" "330Ω"
 			(at 287.02 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3277,7 +3277,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RMS12FT3300"
 			(at 284.48 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3288,7 +3288,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 284.48 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3299,7 +3299,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C912819"
 			(at 284.48 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3348,7 +3348,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47Ω"
+		(property "Value" "120Ω"
 			(at 298.45 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3392,7 +3392,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "FRC1206F1200TS"
 			(at 295.91 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3403,7 +3403,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 295.91 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3414,7 +3414,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C2933584"
 			(at 295.91 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3697,7 +3697,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2kΩ"
+		(property "Value" "1.8kΩ"
 			(at 275.59 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3741,7 +3741,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "AC1206FR-7W1K8L"
 			(at 273.05 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3752,7 +3752,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 273.05 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3763,7 +3763,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C6114262"
 			(at 273.05 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4412,7 +4412,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5014,7 +5014,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "FRC1206J102 TS"
 			(at 236.22 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5025,7 +5025,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 236.22 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5036,7 +5036,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C2907440"
 			(at 236.22 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5140,7 +5140,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "XL-502UGD"
+		(property "Manufacturer Part Number" "WP7113GD"
 			(at 284.48 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -5162,7 +5162,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "C2895548"
+		(property "Vendor Part Number" "C7117617"
 			(at 284.48 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -5344,7 +5344,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "XL-502UGD"
+		(property "Manufacturer Part Number" "WP7113GD"
 			(at 295.91 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -5366,7 +5366,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "C2895548"
+		(property "Vendor Part Number" "C7117617"
 			(at 295.91 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -5470,7 +5470,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "XL-502UGD"
+		(property "Manufacturer Part Number" "WP7113GD"
 			(at 273.05 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -5492,7 +5492,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "C2895548"
+		(property "Vendor Part Number" "C7117617"
 			(at 273.05 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -5934,7 +5934,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digi-Key"
 			(at 260.35 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -5945,7 +5945,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31A106MAHNNNE"
 			(at 260.35 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -5956,7 +5956,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1276-1181-1-ND"
 			(at 260.35 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -6321,7 +6321,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digi-Key"
 			(at 157.48 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6332,7 +6332,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31A106MAHNNNE"
 			(at 157.48 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6343,7 +6343,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1276-1181-1-ND"
 			(at 157.48 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6569,7 +6569,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6763,7 +6763,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7129,7 +7129,7 @@
 				)
 			)
 		)
-		(property "Value" "LMR50410"
+		(property "Value" "LMR50410-Q1"
 			(at 207.01 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7151,7 +7151,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmr50410.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr50410-q1.pdf"
 			(at 196.85 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7184,7 +7184,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "296-LMR50410Y5FQDBVRQ1CT-ND"
+		(property "Manufacturer Part Number" "LMR50410Y5FQDBVRQ1"
 			(at 207.01 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7239,7 +7239,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7457,7 +7457,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "HRC1206F1502HNTN"
 			(at 236.22 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7468,7 +7468,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 236.22 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7479,7 +7479,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C54921407"
 			(at 236.22 106.68 0)
 			(hide yes)
 			(show_name no)

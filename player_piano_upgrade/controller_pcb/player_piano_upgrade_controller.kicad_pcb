@@ -1234,7 +1234,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "XL-502UGD"
+		(property "Manufacturer Part Number" "WP7113GD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1260,7 +1260,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "C2895548"
+		(property "Vendor Part Number" "C7117617"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7195,7 +7195,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "XL-502UGD"
+		(property "Manufacturer Part Number" "WP7113GD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7221,7 +7221,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "C2895548"
+		(property "Vendor Part Number" "C7117617"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9148,7 +9148,7 @@
 				)
 			)
 		)
-		(property "Value" "LMR50410"
+		(property "Value" "LMR50410-Q1"
 			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "455d6f3b-755b-46a6-a481-e250b9a8e433")
@@ -9159,7 +9159,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmr50410.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr50410-q1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9206,7 +9206,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "296-LMR50410Y5FQDBVRQ1CT-ND"
+		(property "Manufacturer Part Number" "LMR50410Y5FQDBVRQ1"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10290,7 +10290,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2kΩ"
+		(property "Value" "1.8kΩ"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "9f846e3d-0414-4482-b273-f50e97222151")
@@ -10545,7 +10545,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "XL-502UGD"
+		(property "Manufacturer Part Number" "WP7113GD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10571,7 +10571,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" "C2895548"
+		(property "Vendor Part Number" "C7117617"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11145,7 +11145,7 @@
 				)
 			)
 		)
-		(property "Value" "47Ω"
+		(property "Value" "120Ω"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "b0f1d17b-bba6-4ed6-89cf-fe9d7b4fa30b")
@@ -14537,7 +14537,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω"
+		(property "Value" "330Ω"
 			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "7502c7a0-b7ae-454b-93cd-725f439f5571")
@@ -19450,7 +19450,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "6V-36V DC"
+	(gr_text "6V-24V DC"
 		(at 84 118.5 90)
 		(layer "F.SilkS")
 		(uuid "65cecccb-d6c6-4d1c-81d2-05dc110086d9")

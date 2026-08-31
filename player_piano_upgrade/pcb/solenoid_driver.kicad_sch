@@ -2342,7 +2342,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "A2543WV-2P"
 			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2353,7 +2353,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2364,7 +2364,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C239362"
 			(at 97.79 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2684,7 +2684,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "FRC1206F18R0TS"
 			(at 152.4 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -2695,7 +2695,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 152.4 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -2706,7 +2706,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C2933617"
 			(at 152.4 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -3680,7 +3680,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "FRC1206F18R0TS"
 			(at 91.44 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -3691,7 +3691,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 91.44 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -3702,7 +3702,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C2933617"
 			(at 91.44 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -4587,7 +4587,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "A2543WV-2P"
 			(at 158.75 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4598,7 +4598,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 158.75 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4609,7 +4609,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C239362"
 			(at 158.75 93.98 0)
 			(hide yes)
 			(show_name no)

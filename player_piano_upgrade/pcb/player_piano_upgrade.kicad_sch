@@ -7427,7 +7427,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "FRC1206F4701TS"
 			(at 273.05 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -7438,7 +7438,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 273.05 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -7449,7 +7449,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C2907387"
 			(at 273.05 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -8738,7 +8738,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "FRC1206F4701TS"
 			(at 300.99 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8749,7 +8749,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 300.99 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8760,7 +8760,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C2907387"
 			(at 300.99 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8922,6 +8922,39 @@
 			)
 		)
 		(property "Description" "Dual 5A MOSFET driver, 4.5V..26V supply, non-inverting, SOIC-8"
+			(at 100.33 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "UCC27624DR"
+			(at 100.33 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 100.33 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C3655293"
 			(at 100.33 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10940,7 +10973,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "STM32F401RCT6"
 			(at 228.6 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10951,7 +10984,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 228.6 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10962,7 +10995,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C74524"
 			(at 228.6 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11241,7 +11274,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "FRC1206F1002TS"
 			(at 189.23 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11252,7 +11285,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 189.23 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11263,7 +11296,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C2907370"
 			(at 189.23 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -12597,7 +12630,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13077,6 +13110,39 @@
 			)
 		)
 		(property "Description" "Dual 5A MOSFET driver, 4.5V..26V supply, non-inverting, SOIC-8"
+			(at 100.33 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "UCC27624DR"
+			(at 100.33 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 100.33 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C3655293"
 			(at 100.33 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -13645,6 +13711,39 @@
 			)
 		)
 		(property "Description" "Dual 5A MOSFET driver, 4.5V..26V supply, non-inverting, SOIC-8"
+			(at 100.33 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "UCC27624DR"
+			(at 100.33 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 100.33 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C3655293"
 			(at 100.33 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -14417,7 +14516,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "FRC1206F4701TS"
 			(at 262.89 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -14428,7 +14527,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 262.89 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -14439,7 +14538,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C2907387"
 			(at 262.89 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -14601,6 +14700,39 @@
 			)
 		)
 		(property "Description" "Dual 5A MOSFET driver, 4.5V..26V supply, non-inverting, SOIC-8"
+			(at 100.33 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "UCC27624DR"
+			(at 100.33 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 100.33 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C3655293"
 			(at 100.33 151.13 0)
 			(hide yes)
 			(show_name no)
