@@ -82,9 +82,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "outputs/")
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
@@ -4301,6 +4301,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -4795,6 +4796,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "618e5c4f-bd7b-4347-a602-7e5621a4af2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bf4bcfd-2379-4cdc-a73b-c8ea91b765ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "IDC2.54-2*5PZ"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2098043-9ae2-486f-9ab9-869ee6cfabd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C53207560"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dab4b430-9fc6-408e-9409-b3b6dbd265f4")
 			(effects
 				(font
 					(size 1 1)
@@ -5602,6 +5642,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -5919,7 +5960,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "XL-502SURD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5945,7 +5986,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C2895492"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6985,7 +7026,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "FRC1206J102 TS"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6998,7 +7039,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7011,7 +7052,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C2907440"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8942,7 +8983,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "XL-502SURD"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8968,7 +9009,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C2895492"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9607,7 +9648,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31B475KAHNNNE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9620,7 +9661,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1276-1055-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10335,7 +10376,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "AC1206FR-7W1K8L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10348,7 +10389,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10361,7 +10402,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C6114262"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11190,7 +11231,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "FRC1206F1200TS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11203,7 +11244,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11216,7 +11257,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C2933584"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11584,7 +11625,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digi-Key"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11597,7 +11638,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31A106MAHNNNE"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11610,7 +11651,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1276-1181-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11783,6 +11824,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -11879,6 +11921,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "ESP32-S3-WROOM-2-N32R16V"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6bd6549-e259-4af7-9d4c-25a400b9c614")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab963ffd-37bb-4f27-9109-b5d0c8431377")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Part Number" "C42417293"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3197d6c-3f14-474f-9720-6dcf0aee7c7a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14582,7 +14663,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RMS12FT3300"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14595,7 +14676,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14608,7 +14689,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C912819"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15450,6 +15531,45 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d98bb4b2-bc1e-4b75-bb3c-9cfee3ae4c3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "Digi-Key"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb95f23b-c8bb-4c73-a1c1-8c762a60cf82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "61200621621"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b8df80e-e2c6-48e7-95a4-929af21262f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor Part Number" "732-5394-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71a653a6-fe54-466f-b1c8-795017fa4c79")
 			(effects
 				(font
 					(size 1 1)
@@ -17758,7 +17878,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "HRC1206F1502HNTN"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17771,7 +17891,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "LCSC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17784,7 +17904,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "C54921407"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18351,6 +18471,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -18734,7 +18855,7 @@
 				)
 			)
 		)
-		(property "Vendor" ""
+		(property "Vendor" "Digi-Key"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18747,7 +18868,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31A106MAHNNNE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18760,7 +18881,7 @@
 				)
 			)
 		)
-		(property "Vendor Part Number" ""
+		(property "Vendor Part Number" "1276-1181-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19280,6 +19401,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
