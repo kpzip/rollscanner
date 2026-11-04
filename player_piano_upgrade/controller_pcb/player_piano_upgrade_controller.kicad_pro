@@ -485,6 +485,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -541,7 +542,7 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {},
     "netclass_assignments": {
       "/USB_DN": [
         "USB"
@@ -723,7 +724,7 @@
         "uuid": "d36acd43-faba-47be-b09c-6b88eb46c0a4"
       }
     ],
-    "used_designators": "SW1,L1,#FLG1-3,H1-4,TP1-5,JP1,R1-21,J1-8,J10-12,D1-6,D9-13,C1-15,C17-23,C37-42,C46,#PWR1-59,#PWR61-70,#PWR85-99,#PWR199-202,U1-7",
+    "used_designators": "#FLG1-3,#PWR1-59,#PWR61-70,#PWR85-99,#PWR199-202,C1-15,C17-23,C37-42,C46,D1-6,D9-13,H1-4,J1-8,J10-12,JP1,L1,R1-21,SW1,TP1-5,U1-7",
     "variants": []
   },
   "sheets": [
